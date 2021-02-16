@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+.app_bar{
+  height: 100vh;
+}
+.app_sidebar{
+  border-right: 3px solid white;
+
+}
+
+.app_contentbar{
+  height: 100%;
+  padding: 5px;
+  
+}
+
+.app_navigation{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  border-bottom: 4px solid #343a40;
+  
+}
+
+.app_navigation_item{
+  display: inline-block;
+  margin: 5px;
+  padding: 3px;
+  padding-right: 5px;
+}
+
+.app_navigation_item{
+  display: inline-block;
+  margin: 5px;
+  padding: 3px;
+  padding-right: 5px;
+  border: 3px solid blueviolet;
+  font-weight: bold;
+  
+}
+
+.app_navigation_item:hover{
+  /* background-color: blueviolet; */
+  border: 3px solid #343a40;
+  cursor: pointer;
+  transition: border-width 0.2s linear;
+}
+
+ .row, .col-12, .col-3{
+  padding: 0;
+  margin: 0;
+}
+.app_projects_bar{
+  overflow-y: scroll;
+  height: 92%;
+}
+
+.app_skills_bar{
+  height: 92%;
+  overflow-y: scroll;
+}
+
+.app_experience_bar{
+  height: 92%;
+  overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+::-webkit-scrollbar-track {
+    background-color: azure;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #5433FF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #A5FECB, #20BDFF, #5433FF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.app_project_filter{
+  width: 20%;
+}
