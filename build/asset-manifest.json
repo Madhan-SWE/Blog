@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cff48b4c.chunk.css",
+    "main.js": "/static/js/main.ab9f2fc7.chunk.js",
+    "main.js.map": "/static/js/main.ab9f2fc7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.d0605945.js",
+    "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
+    "static/js/2.4fd0f827.chunk.js": "/static/js/2.4fd0f827.chunk.js",
+    "static/js/2.4fd0f827.chunk.js.map": "/static/js/2.4fd0f827.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.cff48b4c.chunk.css.map": "/static/css/main.cff48b4c.chunk.css.map",
+    "static/js/2.4fd0f827.chunk.js.LICENSE.txt": "/static/js/2.4fd0f827.chunk.js.LICENSE.txt",
+    "static/media/avatar.a62ab4c1.PNG": "/static/media/avatar.a62ab4c1.PNG",
+    "static/media/docker.6a1c2220.png": "/static/media/docker.6a1c2220.png",
+    "static/media/express.d61ef3d5.png": "/static/media/express.d61ef3d5.png",
+    "static/media/kubernetes.0cfecc72.png": "/static/media/kubernetes.0cfecc72.png",
+    "static/media/react.78e61144.png": "/static/media/react.78e61144.png",
+    "static/media/resume.d5f05bcd.pdf": "/static/media/resume.d5f05bcd.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0605945.js",
+    "static/js/2.4fd0f827.chunk.js",
+    "static/css/main.cff48b4c.chunk.css",
+    "static/js/main.ab9f2fc7.chunk.js"
+  ]
+}
