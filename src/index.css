@@ -5,6 +5,10 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #8E2DE2;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
   
 }
 
@@ -18,13 +22,17 @@ code {
   height: 100vh;
 }
 .app_sidebar{
-  border-right: 3px solid white;
+  border: 3px solid white;
+  font-family: 'Bebas Neue', cursive;
 
 }
 
 .app_contentbar{
   height: 100%;
   padding: 5px;
+  border: 3px solid white;
+  /* background: url("../src/assets/contentbg.jpg"); */
+  /* padding: 5px 0px 5px 5px; */
   
 }
 
@@ -37,26 +45,22 @@ code {
   
 }
 
-.app_navigation_item{
-  display: inline-block;
-  margin: 5px;
-  padding: 3px;
-  padding-right: 5px;
-}
+
 
 .app_navigation_item{
   display: inline-block;
   margin: 5px;
   padding: 3px;
   padding-right: 5px;
-  border: 3px solid blueviolet;
+  border: 3px solid rgb(187, 211, 255);
+  background-color: rgb(207, 222, 250);;
   font-weight: bold;
   
 }
 
 .app_navigation_item:hover{
   /* background-color: blueviolet; */
-  border: 3px solid #343a40;
+  border: 3px solid #0577e9;
   cursor: pointer;
   transition: border-width 0.2s linear;
 }
@@ -68,16 +72,20 @@ code {
 .app_projects_bar{
   overflow-y: scroll;
   height: 92%;
+  font-family: 'Playfair Display', serif;
+  
 }
 
 .app_skills_bar{
-  height: 92%;
+  height: 90%;
   overflow-y: scroll;
+  font-family: 'Playfair Display', serif;
 }
 
 .app_experience_bar{
   height: 92%;
   overflow-y: scroll;
+  font-family: 'Playfair Display', serif;
 }
 
 ::-webkit-scrollbar {
@@ -95,4 +103,159 @@ background: linear-gradient(to top, #A5FECB, #20BDFF, #5433FF); /* W3C, IE 10+/ 
 }
 .app_project_filter{
   width: 20%;
+}
+
+.app_icon{
+  transition: transform .5s;
+}
+
+.app_icon:hover{
+  transform: scale(1.1);
+}
+
+.app_skill_icon{
+  transition: transform .5s;
+}
+.app_skill_icon:hover{
+  transform: scale(1.1);
+}
+
+.avatar{
+  transition: transform .5s;
+}
+.avatar:hover{
+  transform: scale(1.05);
+}
+.app_project_link:hover{
+    color: rgb(85, 207, 255);
+    font-weight: bold;
+}
+a, a:hover, a:visited {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.app_contact_icon{
+font-size: 40px;
+/* padding: 10px; */
+}
+
+.app_contact_icon:hover{
+  color: #75fae8;
+}
+
+.app_contact{
+  font-size: 20px;
+}
+
+.active{
+  border: 3px solid #343a40;
+  color: white;
+  background-color: #343a40;
+}
+
+.app_home{
+  position: absolute;
+  top: 30%;
+
+}
+
+.app_home_name{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 50px;
+  color: #abff5c;
+}
+
+.app_home_hi{
+  font-family: 'Pacifico', cursive;
+  font-size: 30px;
+}
+
+.app_home_desc{
+  font-family: 'Noto Serif', serif;
+  color: #20BDFF;
+}
+
+.app_page_title{
+  color: #20BDFF;
+  border-bottom: 2px solid white;
+  padding-bottom: 10px;
+}
+
+.app_project-title{
+  color: #090dff;
+}
+.app_experience_title{
+  color: #0075a7;
+}
+
+@media only screen and (max-width: 600px) {
+  .app_navigation_item{
+    display: block;
+  }
+  .app_navigation{
+      padding: 5px;
+  }
+  .app_contentbar{
+    height: 120%;
+  }
+
+  .app_bar{
+    height: 120vh;
+  }
+  .app_skills_bar{
+    height: 75%;
+  }
+
+  .app_experience_bar{
+    height: 75%;
+  }
+
+  .app_projects_bar{
+    height: 75%;
+  }
+
+  .app_home_name{
+    font-size: 2em;
+  }
+
+  .app_home_desc{
+    padding: 50px;
+  }
+
+  .app_home{
+    position: absolute;
+    top: 30%;
+  }
+}
+
+
+@media only screen and (max-width: 450px) {
+  .app_home{
+    position: absolute;
+    top: 35%;
+    height: 60%;
+    overflow-y: scroll;
+  }
+  .app_home_name{
+    font-size: 1.7em;
+  }
+  .app_home_desc{
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 300px) {
+  .app_home{
+    position: absolute;
+    top: 35%;
+    height: 60%;
+    overflow-y: scroll;
+  }
+  .app_home_name{
+    font-size: 1.3em;
+  }
+  .app_home_desc{
+    padding: 15px;
+  }
 }
