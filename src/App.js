@@ -10,7 +10,7 @@ function App() {
 
     function changeActiveItem(value) {
         setActiveItem(value);
-        console.log(value)
+        console.log(value);
     }
     return (
         <>
