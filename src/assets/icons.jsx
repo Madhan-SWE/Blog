@@ -16,6 +16,8 @@ import ansible from "./ansible.png"
 import terraform from "./terraform.png"
 import express from "./express.png"
 import bootstrap from "./bootstrap.png"
+import php from "./php.png"
+import mysql from "./mysql.png"
 
 export const ICONS = {
     "node": [node, "Node JS"],
@@ -35,6 +37,7 @@ export const ICONS = {
     "ansible": [ansible, "Ansible"],
     "terraform": [terraform, "Terraform"],
     "express": [express, "Express JS"],
-    "bootstrap": [bootstrap, "Bootstrap"]
-
+    "bootstrap": [bootstrap, "Bootstrap"],
+    "mysql": [mysql, "Mysql"],
+    "php": [php, "PHP"]
 }
