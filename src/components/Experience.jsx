@@ -4,6 +4,7 @@ export default function Experience() {
     return (
         <div className="row app_experience_bar">
             <div className="col-12">
+            <h2 className="app_page_title text-center">Experience</h2>
                 <div className="row ">
                     <div className="col-12">
                         <div className="row">
@@ -11,8 +12,8 @@ export default function Experience() {
                                 <div class="card text-black bg-light">
                                     <div class="card-header">
                                         <div className="row">
-                                            <div className="col-6 text-left">
-                                                <h3 class="card-title">
+                                            <div className="col-12 col-md-6 text-left">
+                                                <h3 class="card-title app_experience_title">
                                                     {" "}
                                                     Maplelabs (Xoriant
                                                     solutions)
@@ -23,13 +24,13 @@ export default function Experience() {
                                                     Bangalore, India
                                                 </h6>
                                             </div>
-                                            <div className="col-6 text-right">
-                                                <h5> July 2018 - Present</h5>
+                                            <div className="col -12 col-md-6 text-right">
+                                                <h5 className="app_experience_title"> July 2018 - Present</h5>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="card-body">
-                                        <h2>Snappy Flow</h2>
+                                        <h2 className="app_experience_title">Snappy Flow</h2>
                                         <ul>
                                             <li>
                                                 Developed python plugin to get
@@ -53,7 +54,7 @@ export default function Experience() {
                                             </li>
                                         </ul>
 
-                                        <h2>
+                                        <h2 className="app_experience_title">
                                             Hyperflex Appliance Platform (HxAP)
                                             & Intersight
                                         </h2>
